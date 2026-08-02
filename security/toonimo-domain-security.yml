@@ -1,0 +1,25 @@
+generated: '2026-07-21'
+method: probed
+source: live probe of toonimo.com (curl TLS/HTTP HEAD + dig)
+hosts:
+  - host: www.toonimo.com
+    https: true
+    http_version: "1.1"
+    tls_verified: true
+    hsts: true
+    hsts_max_age: 31536000
+    hsts_include_subdomains: true
+    hsts_preload: true
+domains:
+  - domain: toonimo.com
+    dnssec: false
+    caa: []
+    spf: true
+    spf_record: "v=spf1 include:_spf.google.com include:26161334.spf03.hubspotemail.net -all"
+    dmarc: true
+    dmarc_policy: none
+    mx: google-workspace
+notes: >-
+  HSTS is strong (max-age 31536000, includeSubDomains, preload). No DNSSEC and
+  no CAA records published. SPF present; DMARC published but policy is p=none
+  (monitor-only, not enforcing). Email handled by Google Workspace + HubSpot.

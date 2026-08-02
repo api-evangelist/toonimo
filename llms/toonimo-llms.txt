@@ -1,0 +1,16 @@
+# Toonimo Marketing Site
+
+Toonimo provides digital adoption and on-site guidance solutions. We help organizations increase conversions and reduce support costs through animated guides, virtual assistants, and personalized onboarding for enterprise software and websites.
+
+## Key pages
+- Home: /
+- Product: /product
+- Features: /features
+- Integrations: /platforms/* (Salesforce, SAP, Workday, etc.)
+- Industries: /industries/*
+- Resources: /resources
+- Blog: /blog
+- Contact: /contact
+
+## Crawling
+We allow AI crawlers. See robots.txt for details.

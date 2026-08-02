@@ -1,23 +1,80 @@
 aid: toonimo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/toonimo.png
 name: Toonimo
-description: Toonimo is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Toonimo is a digital adoption platform (DAP) that overlays personalized,
+  interactive on-screen guidance onto enterprise software and websites. Using
+  patented voice, text-bubble, and visual-cue walkthroughs, Toonimo guides end
+  users and employees through onboarding, self-service, and complex workflows to
+  increase conversions, accelerate software adoption, and reduce support costs.
+  It layers on top of platforms such as Salesforce, SAP SuccessFactors, Workday,
+  ServiceNow, Oracle Cloud, Microsoft Dynamics, Coupa, and SharePoint, and
+  enables subject-matter experts (not just developers) to build and maintain
+  adoption content. Toonimo is a marketing/product company backed by Lightspeed
+  Venture Partners; it does not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/toonimo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enriched-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Digital Adoption
+- Digital Adoption Platform
+- Employee Onboarding
+- User Onboarding
+- Customer Success
+- Guidance
+- Self Service
+- Enterprise Software
+- Walkthroughs
 apis: []
+common:
+- type: Website
+  url: https://www.toonimo.com/en
+- type: Product
+  url: https://www.toonimo.com/en/product
+- type: Features
+  url: https://www.toonimo.com/en/features
+- type: Pricing
+  url: https://www.toonimo.com/en/pricing
+- type: Blog
+  url: https://www.toonimo.com/en/blog
+- type: Support
+  url: https://www.toonimo.com/en/contact
+- type: SignUp
+  url: https://www.toonimo.com/en/demo
+- type: TermsOfService
+  url: https://www.toonimo.com/en/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.toonimo.com/en/legal/privacy-policy
+- type: LLMsTxt
+  url: llms/toonimo-llms.txt
+- type: DomainSecurity
+  url: security/toonimo-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
